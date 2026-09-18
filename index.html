@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ines Moalla — Portfolio</title>
+<meta name="description" content="Ines Moalla — Élève Ingénieure en Informatique. Portfolio, projets et compétences.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%237c3aed'/%3E%3Cstop offset='.5' stop-color='%23ec4899'/%3E%3Cstop offset='1' stop-color='%23f97316'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23g)'/%3E%3Ctext x='32' y='42' font-family='Arial' font-size='28' font-weight='700' fill='white' text-anchor='middle'%3EIM%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NAVIGATION ===== -->
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="logo">Ines<span class="logo-dot">.</span>Moalla</a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about"><span class="fr">Profil</span><span class="en">Profile</span></a>
+      <a href="#skills"><span class="fr">Compétences</span><span class="en">Skills</span></a>
+      <a href="#experience"><span class="fr">Expériences</span><span class="en">Experience</span></a>
+      <a href="#projects"><span class="fr">Projets</span><span class="en">Projects</span></a>
+      <a href="#education"><span class="fr">Diplômes</span><span class="en">Education</span></a>
+      <a href="#contact"><span class="fr">Contact</span><span class="en">Contact</span></a>
+    </nav>
+
+    <div class="nav-actions">
+      <button id="langToggle" class="lang-toggle" type="button" aria-label="Switch language">
+        <span class="fr">EN</span><span class="en">FR</span>
+      </button>
+      <button id="menuToggle" class="menu-toggle" type="button" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="hero">
+  <div class="hero-shape hero-shape-1"></div>
+  <div class="hero-shape hero-shape-2"></div>
+  <div class="hero-shape hero-shape-3"></div>
+
+  <div class="hero-content">
+    <p class="hero-kicker">
+      <span class="fr">👋 Bonjour, je suis</span><span class="en">👋 Hi, I'm</span>
+    </p>
+    <h1 class="hero-title">Ines Moalla</h1>
+    <p class="hero-subtitle">
+      <span class="fr">Élève Ingénieure en Informatique</span>
+      <span class="en">Computer Engineering Student</span>
+    </p>
+    <p class="hero-text">
+      <span class="fr">Étudiante en génie informatique à l'Institut International de Technologie de Sfax — full-stack, IA &amp; data science. À la recherche d'un stage pour développer mes compétences et bâtir une carrière enrichissante.</span>
+      <span class="en">Computer engineering student at the International Institute of Technology of Sfax — full-stack, AI &amp; data science. Looking for an internship to grow my skills and build a rewarding career.</span>
+    </p>
+
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary">
+        <span class="fr">Voir mes projets</span><span class="en">View my projects</span>
+      </a>
+      <a href="assets/CV_Ines_Moalla.pdf" class="btn btn-outline" download>
+        <span class="fr">Télécharger mon CV</span><span class="en">Download my CV</span>
+      </a>
+    </div>
+
+    <div class="hero-links">
+      <a href="mailto:inesmoalla68@gmail.com" aria-label="Email">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M3 6.5C3 5.67 3.67 5 4.5 5h15c.83 0 1.5.67 1.5 1.5v11c0 .83-.67 1.5-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5v-11Z" stroke="currentColor" stroke-width="1.6"/><path d="M4 6.5l8 6.5 8-6.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="https://linkedin.com/in/ines-moalla-34a999304" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.6"/><path d="M7.5 10.5v6M7.5 7.75v.01M11.5 16.5v-3.75c0-1.24 1-2.25 2.25-2.25s2.25 1 2.25 2.25V16.5M11.5 10.5v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </a>
+      <a href="tel:+21624886640" aria-label="Téléphone">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M5 4h3.5l1.5 4.5-2 1.5a11 11 0 0 0 6 6l1.5-2 4.5 1.5V19a1.5 1.5 0 0 1-1.5 1.5C10.5 20.5 3.5 13.5 3.5 5.5A1.5 1.5 0 0 1 5 4Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-hint" aria-label="Scroll down">
+    <svg viewBox="0 0 24 24" fill="none"><path d="M12 4v16M6 14l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+</section>
+
+<!-- ===== ABOUT / PROFIL ===== -->
+<section class="section" id="about">
+  <div class="section-inner">
+    <p class="section-kicker"><span class="fr">À propos</span><span class="en">About</span></p>
+    <h2 class="section-title"><span class="fr">Profil</span><span class="en">Profile</span></h2>
+
+    <div class="about-grid">
+      <p class="about-text">
+        <span class="fr">Étudiante en troisième année de génie informatique à l'Institut International de Technologie de Sfax, je suis à la recherche d'un stage qui me permettra de développer mes compétences, d'acquérir de nouvelles connaissances technologiques et de bâtir une carrière professionnelle enrichissante. Je travaille aussi bien sur le développement full-stack que sur l'IA / data science et la Business Intelligence.</span>
+        <span class="en">Third-year computer engineering student at the International Institute of Technology of Sfax, looking for an internship to develop my skills, gain new technological knowledge and build a rewarding career. I work across full-stack development as well as AI / data science and Business Intelligence.</span>
+      </p>
+
+      <div class="about-cards">
+        <div class="about-card">
+          <span class="about-card-emoji">🎓</span>
+          <h3><span class="fr">Formation</span><span class="en">Education</span></h3>
+          <p><span class="fr">IIT Sfax — Génie Informatique</span><span class="en">IIT Sfax — Computer Engineering</span></p>
+        </div>
+        <div class="about-card">
+          <span class="about-card-emoji">📍</span>
+          <h3><span class="fr">Localisation</span><span class="en">Location</span></h3>
+          <p>Sfax, Tunisie</p>
+        </div>
+        <div class="about-card">
+          <span class="about-card-emoji">🗣️</span>
+          <h3><span class="fr">Langues</span><span class="en">Languages</span></h3>
+          <p><span class="fr">Français, Anglais, Arabe</span><span class="en">French, English, Arabic</span></p>
+        </div>
+        <div class="about-card">
+          <span class="about-card-emoji">🌱</span>
+          <h3><span class="fr">Centres d'intérêt</span><span class="en">Interests</span></h3>
+          <p><span class="fr">Voyage, lecture, veille IA</span><span class="en">Travel, reading, AI trends</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section class="section section-alt" id="skills">
+  <div class="section-inner">
+    <p class="section-kicker"><span class="fr">Savoir-faire</span><span class="en">Know-how</span></p>
+    <h2 class="section-title"><span class="fr">Compétences Techniques</span><span class="en">Technical Skills</span></h2>
+
+    <div class="skills-grid">
+      <div class="skill-card skill-card-1">
+        <h3><span class="fr">Dév. Mobile &amp; Web</span><span class="en">Mobile &amp; Web Dev</span></h3>
+        <div class="pills">
+          <span class="pill">Flutter (Dart)</span>
+          <span class="pill">Spring Boot</span>
+          <span class="pill">PHP / Laravel</span>
+          <span class="pill">Vue.js 3</span>
+          <span class="pill">Angular</span>
+          <span class="pill">ASP.NET Core</span>
+          <span class="pill">Blazor</span>
+          <span class="pill">JavaScript</span>
+          <span class="pill">HTML / CSS</span>
+        </div>
+      </div>
+
+      <div class="skill-card skill-card-2">
+        <h3><span class="fr">Data Science &amp; IA</span><span class="en">Data Science &amp; AI</span></h3>
+        <div class="pills">
+          <span class="pill">Python</span>
+          <span class="pill">TensorFlow</span>
+          <span class="pill">Keras</span>
+          <span class="pill">PyTorch</span>
+          <span class="pill">Scikit-learn</span>
+          <span class="pill">XGBoost</span>
+          <span class="pill">Pandas / NumPy</span>
+          <span class="pill">SHAP</span>
+          <span class="pill">FastAPI</span>
+        </div>
+      </div>
+
+      <div class="skill-card skill-card-3">
+        <h3><span class="fr">Outils</span><span class="en">Tools</span></h3>
+        <div class="pills">
+          <span class="pill">Git &amp; GitHub</span>
+          <span class="pill">Postman</span>
+          <span class="pill">Swagger</span>
+          <span class="pill">Android Studio</span>
+          <span class="pill">IntelliJ IDEA</span>
+          <span class="pill">VS Code</span>
+          <span class="pill">Google Colab</span>
+        </div>
+      </div>
+
+      <div class="skill-card skill-card-4">
+        <h3><span class="fr">Certifications</span><span class="en">Certifications</span></h3>
+        <div class="pills">
+          <span class="pill">DELF (B2)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EXPERIENCE ===== -->
+<section class="section" id="experience">
+  <div class="section-inner">
+    <p class="section-kicker"><span class="fr">Parcours</span><span class="en">Journey</span></p>
+    <h2 class="section-title"><span class="fr">Expériences Professionnelles</span><span class="en">Professional Experience</span></h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <span class="timeline-date">Juillet 2025 – Août 2025</span>
+          <h3><span class="fr">Stage d'été — Deep Learning</span><span class="en">Summer Internship — Deep Learning</span></h3>
+          <p class="timeline-org">Centre de Recherche en Numérique de Sfax (CRNS) · Sfax, Tunisie</p>
+          <ul>
+            <li><span class="fr">Mise en œuvre d'algorithmes de Deep Learning (PyTorch, ResNet) pour la classification binaire (olivier vs non-olivier)</span><span class="en">Implemented Deep Learning algorithms (PyTorch, ResNet) for binary classification (olive tree vs. non-olive tree)</span></li>
+            <li><span class="fr">Prétraitement et analyse de données issues d'images satellites</span><span class="en">Preprocessing and analysis of satellite image data</span></li>
+            <li><span class="fr">Optimisation des performances de modèles de classification (précision, temps d'exécution)</span><span class="en">Optimized classification model performance (accuracy, runtime)</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <span class="timeline-date">Jan 2024 – Juin 2024</span>
+          <h3><span class="fr">Stage Projet de Fin d'Études</span><span class="en">Final-Year Project Internship</span></h3>
+          <p class="timeline-org">All Soft MultiMedia (ASM) · Sfax, Tunisie</p>
+          <ul>
+            <li><span class="fr">Développement d'une application mobile de quiz pour la sélection objective des candidatures et l'évaluation des développeurs</span><span class="en">Developed a mobile quiz app for objective candidate screening and developer evaluation</span></li>
+            <li><span class="fr">Backend développé avec Spring Boot pour la gestion des données et la sécurité</span><span class="en">Backend built with Spring Boot for data management and security</span></li>
+            <li><span class="fr">Frontend développé avec Flutter pour une interface intuitive et fluide</span><span class="en">Frontend built with Flutter for a smooth, intuitive interface</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section class="section section-alt" id="projects">
+  <div class="section-inner">
+    <p class="section-kicker"><span class="fr">Réalisations</span><span class="en">Work</span></p>
+    <h2 class="section-title"><span class="fr">Projets Académiques</span><span class="en">Academic Projects</span></h2>
+
+    <div class="projects-grid">
+      <article class="project-card project-card-1">
+        <div class="project-top">
+          <span class="project-tag">2025 – 2026</span>
+        </div>
+        <h3>Mediflow</h3>
+        <p class="project-desc">
+          <span class="fr">Système IA de prédiction du temps d'attente aux urgences à partir des données patient et des ressources hospitalières.</span>
+          <span class="en">AI system predicting emergency room waiting times from patient data and hospital resources.</span>
+        </p>
+        <div class="pills pills-sm">
+          <span class="pill">Python</span><span class="pill">TensorFlow</span><span class="pill">FastAPI</span><span class="pill">Vue.js 3</span><span class="pill">Ollama LLaMA3</span><span class="pill">SQLite</span><span class="pill">SHAP</span>
+        </div>
+      </article>
+
+      <article class="project-card project-card-2">
+        <div class="project-top">
+          <span class="project-tag">2026</span>
+        </div>
+        <h3>ShopFlow</h3>
+        <p class="project-desc">
+          <span class="fr">Plateforme e-commerce full-stack multi-rôles avec authentification JWT, gestion des commandes, panier et tableaux de bord statistiques.</span>
+          <span class="en">Multi-role full-stack e-commerce platform with JWT authentication, order management, cart and statistics dashboards.</span>
+        </p>
+        <div class="pills pills-sm">
+          <span class="pill">Spring Boot 3.x</span><span class="pill">Angular 16</span><span class="pill">Spring Security 6</span><span class="pill">PostgreSQL</span><span class="pill">Hibernate</span><span class="pill">JUnit/Mockito</span>
+        </div>
+      </article>
+
+      <article class="project-card project-card-3">
+        <div class="project-top">
+          <span class="project-tag">2025</span>
+        </div>
+        <h3><span class="fr">Gestion de Restaurant</span><span class="en">Restaurant Management</span></h3>
+        <p class="project-desc">
+          <span class="fr">Application web de gestion des utilisateurs, du menu et des commandes, avec calcul automatique des totaux et historique des achats sécurisé.</span>
+          <span class="en">Web app for managing users, menu and orders, with automatic total calculation and a secure purchase history.</span>
+        </p>
+        <div class="pills pills-sm">
+          <span class="pill">ASP.NET Core</span><span class="pill">Blazor</span><span class="pill">EF Core</span><span class="pill">SQL Server</span><span class="pill">C#</span><span class="pill">JWT</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EDUCATION ===== -->
+<section class="section" id="education">
+  <div class="section-inner">
+    <p class="section-kicker"><span class="fr">Parcours académique</span><span class="en">Academic path</span></p>
+    <h2 class="section-title"><span class="fr">Diplômes</span><span class="en">Education</span></h2>
+
+    <div class="edu-list">
+      <div class="edu-item">
+        <div class="edu-year">2024 – <span class="fr">Présent</span><span class="en">Present</span></div>
+        <div>
+          <h3><span class="fr">Ingénierie en génie informatique</span><span class="en">Engineering degree in Computer Science</span></h3>
+          <p>Institut International de Technologie · Sfax, Tunisie</p>
+        </div>
+      </div>
+      <div class="edu-item">
+        <div class="edu-year">2024</div>
+        <div>
+          <h3><span class="fr">Licence en technologies de l'information et de la communication</span><span class="en">Bachelor's in Information &amp; Communication Technologies</span></h3>
+          <p>École Nationale d'Electronique et des Télécommunications de Sfax</p>
+          <p class="edu-note"><span class="fr">Spécialité réseaux et télécommunications</span><span class="en">Networks &amp; telecommunications specialization</span></p>
+        </div>
+      </div>
+      <div class="edu-item">
+        <div class="edu-year">2021</div>
+        <div>
+          <h3><span class="fr">Baccalauréat en sciences expérimentales</span><span class="en">High school diploma — experimental sciences</span></h3>
+          <p>Tunisie</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="section contact" id="contact">
+  <div class="section-inner">
+    <p class="section-kicker"><span class="fr">Discutons</span><span class="en">Let's talk</span></p>
+    <h2 class="section-title"><span class="fr">Contact</span><span class="en">Get in touch</span></h2>
+    <p class="contact-text">
+      <span class="fr">Ouverte aux opportunités de stage — n'hésitez pas à me contacter.</span>
+      <span class="en">Open to internship opportunities — feel free to reach out.</span>
+    </p>
+
+    <div class="contact-grid">
+      <a class="contact-card" href="mailto:inesmoalla68@gmail.com">
+        <span class="contact-icon">✉️</span>
+        <span>inesmoalla68@gmail.com</span>
+      </a>
+      <a class="contact-card" href="tel:+21624886640">
+        <span class="contact-icon">📱</span>
+        <span>+216 24 886 640</span>
+      </a>
+      <a class="contact-card" href="https://linkedin.com/in/ines-moalla-34a999304" target="_blank" rel="noopener">
+        <span class="contact-icon">💼</span>
+        <span>linkedin.com/in/ines-moalla-34a999304</span>
+      </a>
+      <span class="contact-card contact-card-static">
+        <span class="contact-icon">📍</span>
+        <span>Sfax, Tunisie</span>
+      </span>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Ines Moalla — <span class="fr">Fait avec ❤ à Sfax</span><span class="en">Made with ❤ in Sfax</span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
